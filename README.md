@@ -1,8 +1,7 @@
 # pyCOSP_full
 
 Standalone, minimal copy of the full Cortical Silent Period (CoSP) detection app.
-This is the newer, feature-complete version (as opposed to `COSP_pg.py`, which is
-a bare EDF viewer prototype without any detection logic — see `pyCOSP_a1/`).
+
 
 ## Files
 
@@ -42,10 +41,4 @@ python COSP.py
 5. **Backward/Forward** — step through channel traces; **X key hold + drag** —
    manually measure an epoch on the raw trace.
 
-## What was excluded from the source folder
 
-Everything else in the original `PyCOSP_0010_moving_std/` source folder was a
-standalone experiment not imported by `COSP.py`, so it's not included here:
-`COSP_pg.py`, `ui_2.py`, `ui_2.ui`, `mous_pos.py`, `plotedf.py`, `plotedf_2.py`,
-`vertical line.py`, `plot_edf.ui`. (`COSP_pg.py` + `ui_2.py` were packaged
-separately as `pyCOSP_a1/`.)
