@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (EDF recordings etc. — usually not checked in)
+*.edf
+*.bdf
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
